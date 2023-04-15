@@ -1,0 +1,17 @@
+/* Variaveis tema escuro*/
+body.dark-theme{
+    --title-color: #f1f2f3;
+    --text-color: #C7D1CC;
+    --body-color: #27302C; 
+    --container-color: #27302C;
+}
+
+/* Botao dark/light */
+.change-theme{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
